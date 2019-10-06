@@ -1,0 +1,51 @@
+=> loading checkpoint 'saved_models/splitting_1.pth.tar'
+  + Number of FLOPs: 0.095G
+94777783.0
+load from key match
+=> loaded checkpoint 'saved_models/splitting_1.pth.tar' 
+testing acc before splitting
+Test: [0/782]	Time 2.212 (2.212)	Loss 0.8049 (0.8049)	Prec@1 82.812 (82.812)	Prec@5 93.750 (93.750)
+Test: [100/782]	Time 0.597 (0.137)	Loss 0.9836 (1.1778)	Prec@1 76.562 (73.871)	Prec@5 93.750 (90.579)
+Test: [200/782]	Time 0.023 (0.129)	Loss 1.1821 (1.1559)	Prec@1 78.125 (73.134)	Prec@5 92.188 (91.620)
+Test: [300/782]	Time 0.665 (0.131)	Loss 0.9146 (1.1410)	Prec@1 79.688 (73.469)	Prec@5 95.312 (91.975)
+Test: [400/782]	Time 0.038 (0.127)	Loss 1.5477 (1.2834)	Prec@1 57.812 (70.429)	Prec@5 87.500 (89.970)
+Test: [500/782]	Time 0.029 (0.128)	Loss 0.9573 (1.3657)	Prec@1 84.375 (68.912)	Prec@5 92.188 (88.604)
+Test: [600/782]	Time 0.723 (0.128)	Loss 1.4259 (1.4323)	Prec@1 73.438 (67.663)	Prec@5 90.625 (87.651)
+Test: [700/782]	Time 0.024 (0.127)	Loss 1.2176 (1.4882)	Prec@1 70.312 (66.465)	Prec@5 92.188 (86.856)
+ * Prec@1 66.534 Prec@5 87.002
+
+
+=> loading checkpoint 'saved_models/splitting_2.pth.tar'
+  + Number of FLOPs: 0.208G
+208344316.0
+load from key match
+=> loaded checkpoint 'saved_models/splitting_2.pth.tar' 
+testing acc before splitting
+Test: [0/782]	Time 2.630 (2.630)	Loss 0.7115 (0.7115)	Prec@1 85.938 (85.938)	Prec@5 95.312 (95.312)
+Test: [100/782]	Time 0.667 (0.154)	Loss 0.7646 (0.9712)	Prec@1 87.500 (78.079)	Prec@5 96.875 (93.162)
+Test: [200/782]	Time 0.031 (0.135)	Loss 1.0692 (0.9500)	Prec@1 81.250 (78.358)	Prec@5 90.625 (93.937)
+Test: [300/782]	Time 0.034 (0.135)	Loss 0.8585 (0.9451)	Prec@1 79.688 (78.374)	Prec@5 93.750 (94.196)
+Test: [400/782]	Time 0.052 (0.135)	Loss 1.1068 (1.0742)	Prec@1 62.500 (75.542)	Prec@5 95.312 (92.491)
+Test: [500/782]	Time 0.032 (0.133)	Loss 0.6727 (1.1420)	Prec@1 84.375 (73.940)	Prec@5 93.750 (91.458)
+Test: [600/782]	Time 0.034 (0.133)	Loss 1.3062 (1.2021)	Prec@1 81.250 (72.751)	Prec@5 87.500 (90.604)
+Test: [700/782]	Time 0.049 (0.132)	Loss 1.0354 (1.2478)	Prec@1 76.562 (71.759)	Prec@5 90.625 (90.023)
+ * Prec@1 71.766 Prec@5 90.074
+
+
+=> loading checkpoint 'saved_models/splitting_3.pth.tar'
+  + Number of FLOPs: 0.298G
+297761455.0
+load from key match
+=> loaded checkpoint 'saved_models/splitting_3.pth.tar' 
+testing acc before splitting
+Test: [0/782]	Time 2.794 (2.794)	Loss 0.6973 (0.6973)	Prec@1 89.062 (89.062)	Prec@5 95.312 (95.312)
+Test: [100/782]	Time 0.045 (0.150)	Loss 0.7695 (0.9261)	Prec@1 79.688 (79.734)	Prec@5 95.312 (93.843)
+Test: [200/782]	Time 0.065 (0.135)	Loss 0.8484 (0.9030)	Prec@1 85.938 (79.703)	Prec@5 93.750 (94.543)
+Test: [300/782]	Time 0.162 (0.138)	Loss 0.8831 (0.8982)	Prec@1 78.125 (79.599)	Prec@5 93.750 (94.752)
+Test: [400/782]	Time 0.042 (0.137)	Loss 0.9380 (1.0236)	Prec@1 71.875 (76.598)	Prec@5 100.000 (93.228)
+Test: [500/782]	Time 0.229 (0.135)	Loss 0.6420 (1.0941)	Prec@1 84.375 (74.981)	Prec@5 93.750 (92.234)
+Test: [600/782]	Time 0.104 (0.132)	Loss 1.0958 (1.1509)	Prec@1 85.938 (73.877)	Prec@5 89.062 (91.473)
+Test: [700/782]	Time 0.041 (0.133)	Loss 1.1913 (1.1964)	Prec@1 76.562 (72.871)	Prec@5 92.188 (90.835)
+ * Prec@1 72.842 Prec@5 90.834
+
+

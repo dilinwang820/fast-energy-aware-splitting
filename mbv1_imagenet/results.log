@@ -1,0 +1,68 @@
+=> loading checkpoint 'saved_models/splitting_1.pth.tar'
+  + Number of FLOPs: 0.082G
+81680057.0
+load from key match
+=> loaded checkpoint 'saved_models/splitting_1.pth.tar' 
+testing acc before splitting
+Test: [0/782]	Time 2.083 (2.083)	Loss 0.8363 (0.8363)	Prec@1 82.812 (82.812)	Prec@5 95.312 (95.312)
+Test: [100/782]	Time 0.813 (0.148)	Loss 1.1923 (1.2799)	Prec@1 68.750 (71.334)	Prec@5 89.062 (89.403)
+Test: [200/782]	Time 0.326 (0.133)	Loss 1.3920 (1.2531)	Prec@1 73.438 (70.631)	Prec@5 89.062 (90.672)
+Test: [300/782]	Time 0.133 (0.133)	Loss 1.1149 (1.2376)	Prec@1 73.438 (71.237)	Prec@5 90.625 (90.729)
+Test: [400/782]	Time 0.012 (0.131)	Loss 1.7516 (1.3903)	Prec@1 51.562 (68.142)	Prec@5 89.062 (88.548)
+Test: [500/782]	Time 0.015 (0.132)	Loss 0.9509 (1.4751)	Prec@1 81.250 (66.517)	Prec@5 93.750 (87.079)
+Test: [600/782]	Time 0.739 (0.130)	Loss 1.4245 (1.5481)	Prec@1 79.688 (65.115)	Prec@5 89.062 (85.992)
+Test: [700/782]	Time 0.029 (0.128)	Loss 1.4500 (1.6025)	Prec@1 67.188 (64.000)	Prec@5 92.188 (85.155)
+ * Prec@1 64.056 Prec@5 85.300
+
+
+=> loading checkpoint 'saved_models/splitting_2.pth.tar'
+  + Number of FLOPs: 0.139G
+139182196.0
+load from key match
+=> loaded checkpoint 'saved_models/splitting_2.pth.tar' 
+testing acc before splitting
+Test: [0/782]	Time 2.361 (2.361)	Loss 0.7431 (0.7431)	Prec@1 92.188 (92.188)	Prec@5 93.750 (93.750)
+Test: [100/782]	Time 0.606 (0.148)	Loss 0.9800 (1.1013)	Prec@1 76.562 (75.866)	Prec@5 93.750 (91.460)
+Test: [200/782]	Time 0.025 (0.135)	Loss 1.2317 (1.0877)	Prec@1 79.688 (75.008)	Prec@5 90.625 (92.483)
+Test: [300/782]	Time 0.946 (0.137)	Loss 0.9270 (1.0755)	Prec@1 78.125 (74.984)	Prec@5 92.188 (92.701)
+Test: [400/782]	Time 0.020 (0.134)	Loss 1.3633 (1.2153)	Prec@1 68.750 (72.066)	Prec@5 87.500 (90.668)
+Test: [500/782]	Time 0.198 (0.133)	Loss 0.7286 (1.2920)	Prec@1 87.500 (70.621)	Prec@5 93.750 (89.418)
+Test: [600/782]	Time 0.037 (0.130)	Loss 1.3412 (1.3579)	Prec@1 82.812 (69.278)	Prec@5 87.500 (88.532)
+Test: [700/782]	Time 0.031 (0.130)	Loss 1.3858 (1.4099)	Prec@1 65.625 (68.188)	Prec@5 92.188 (87.794)
+ * Prec@1 68.264 Prec@5 87.932
+
+
+=> loading checkpoint 'saved_models/splitting_3.pth.tar'
+  + Number of FLOPs: 0.291G
+290901527.0
+load from key match
+=> loaded checkpoint 'saved_models/splitting_3.pth.tar' 
+testing acc before splitting
+Test: [0/782]	Time 2.484 (2.484)	Loss 0.6664 (0.6664)	Prec@1 89.062 (89.062)	Prec@5 93.750 (93.750)
+Test: [100/782]	Time 0.031 (0.146)	Loss 0.8204 (0.9956)	Prec@1 84.375 (78.125)	Prec@5 96.875 (92.868)
+Test: [200/782]	Time 0.030 (0.131)	Loss 1.1556 (0.9792)	Prec@1 73.438 (77.977)	Prec@5 93.750 (93.633)
+Test: [300/782]	Time 0.020 (0.131)	Loss 0.8389 (0.9743)	Prec@1 81.250 (77.876)	Prec@5 95.312 (93.724)
+Test: [400/782]	Time 0.030 (0.128)	Loss 1.0556 (1.0972)	Prec@1 70.312 (75.031)	Prec@5 98.438 (92.133)
+Test: [500/782]	Time 0.029 (0.129)	Loss 0.8305 (1.1693)	Prec@1 84.375 (73.469)	Prec@5 87.500 (91.049)
+Test: [600/782]	Time 0.789 (0.129)	Loss 1.1940 (1.2270)	Prec@1 79.688 (72.434)	Prec@5 89.062 (90.227)
+Test: [700/782]	Time 0.029 (0.127)	Loss 1.3045 (1.2726)	Prec@1 75.000 (71.480)	Prec@5 89.062 (89.618)
+ * Prec@1 71.466 Prec@5 89.670
+
+
+=> loading checkpoint 'saved_models/splitting_4.pth.tar'
+  + Number of FLOPs: 0.560G
+560143248.0
+load from key match
+=> loaded checkpoint 'saved_models/splitting_4.pth.tar' 
+testing acc before splitting
+Test: [0/782]	Time 3.057 (3.057)	Loss 0.4435 (0.4435)	Prec@1 93.750 (93.750)	Prec@5 98.438 (98.438)
+Test: [100/782]	Time 0.678 (0.155)	Loss 0.7851 (0.8938)	Prec@1 84.375 (80.198)	Prec@5 95.312 (94.261)
+Test: [200/782]	Time 0.039 (0.137)	Loss 0.8837 (0.8747)	Prec@1 81.250 (80.061)	Prec@5 93.750 (94.924)
+Test: [300/782]	Time 0.055 (0.137)	Loss 0.8402 (0.8728)	Prec@1 79.688 (80.113)	Prec@5 93.750 (95.120)
+Test: [400/782]	Time 0.031 (0.133)	Loss 0.8559 (0.9906)	Prec@1 76.562 (77.428)	Prec@5 96.875 (93.602)
+Test: [500/782]	Time 0.053 (0.133)	Loss 0.5983 (1.0589)	Prec@1 85.938 (75.889)	Prec@5 96.875 (92.643)
+Test: [600/782]	Time 0.658 (0.133)	Loss 0.8327 (1.1119)	Prec@1 85.938 (74.862)	Prec@5 95.312 (91.993)
+Test: [700/782]	Time 0.048 (0.133)	Loss 1.0980 (1.1551)	Prec@1 65.625 (73.970)	Prec@5 92.188 (91.443)
+ * Prec@1 73.964 Prec@5 91.490
+
+
