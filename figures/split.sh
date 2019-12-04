@@ -1,0 +1,53 @@
+#! /bin/bash
+
+set -e
+
+# large
+for((seed=100;seed<=105;seed++))
+do
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 6 16 10 4 2 1 16 3 3 2 2 16 3 3 1 1 16 3 3 1 1 16 3 3 1 1 16 3 3 1 1 --model_name split_0 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_L/retrain_logs --train_dir work/DS_CNN_split/cfg_L/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 6 21 10 4 2 1 20 3 3 2 2 21 3 3 1 1 21 3 3 1 1 21 3 3 1 1 20 3 3 1 1 --model_name split_1 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_L/retrain_logs --train_dir work/DS_CNN_split/cfg_L/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 6 23 10 4 2 1 23 3 3 2 2 32 3 3 1 1 29 3 3 1 1 30 3 3 1 1 24 3 3 1 1 --model_name split_2 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_L/retrain_logs --train_dir work/DS_CNN_split/cfg_L/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 6 26 10 4 2 1 30 3 3 2 2 44 3 3 1 1 39 3 3 1 1 42 3 3 1 1 28 3 3 1 1 --model_name split_3 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_L/retrain_logs --train_dir work/DS_CNN_split/cfg_L/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 6 32 10 4 2 1 38 3 3 2 2 58 3 3 1 1 55 3 3 1 1 58 3 3 1 1 36 3 3 1 1 --model_name split_4 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_L/retrain_logs --train_dir work/DS_CNN_split/cfg_L/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 6 39 10 4 2 1 52 3 3 2 2 72 3 3 1 1 76 3 3 1 1 88 3 3 1 1 38 3 3 1 1 --model_name split_5 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_L/retrain_logs --train_dir work/DS_CNN_split/cfg_L/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 6 45 10 4 2 1 62 3 3 2 2 98 3 3 1 1 104 3 3 1 1 125 3 3 1 1 42 3 3 1 1 --model_name split_6 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_L/retrain_logs --train_dir work/DS_CNN_split/cfg_L/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 6 54 10 4 2 1 93 3 3 2 2 154 3 3 1 1 156 3 3 1 1 230 3 3 1 1 52 3 3 1 1 --model_name split_7 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_L/retrain_logs --train_dir work/DS_CNN_split/cfg_L/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 6 64 10 4 2 1 137 3 3 2 2 180 3 3 1 1 180 3 3 1 1 282 3 3 1 1 53 3 3 1 1 --model_name split_8 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_L/retrain_logs --train_dir work/DS_CNN_split/cfg_L/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 6 88 10 4 2 1 160 3 3 2 2 198 3 3 1 1 197 3 3 1 1 313 3 3 1 1 53 3 3 1 1 --model_name split_9 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_L/retrain_logs --train_dir work/DS_CNN_split/cfg_L/training  &
+    wait
+done
+
+
+
+# medium
+for((seed=100;seed<=105;seed++))
+do
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 5 16 10 4 2 1 16 3 3 2 2 16 3 3 1 1 16 3 3 1 1 16 3 3 1 1 --model_name split_0 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_M/retrain_logs --train_dir work/DS_CNN_split/cfg_M/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 5 20 10 4 2 1 20 3 3 2 2 21 3 3 1 1 24 3 3 1 1 19 3 3 1 1 --model_name split_1 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_M/retrain_logs --train_dir work/DS_CNN_split/cfg_M/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 5 22 10 4 2 1 26 3 3 2 2 27 3 3 1 1 37 3 3 1 1 23 3 3 1 1 --model_name split_2 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_M/retrain_logs --train_dir work/DS_CNN_split/cfg_M/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 5 25 10 4 2 1 35 3 3 2 2 38 3 3 1 1 56 3 3 1 1 24 3 3 1 1 --model_name split_3 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_M/retrain_logs --train_dir work/DS_CNN_split/cfg_M/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 5 28 10 4 2 1 44 3 3 2 2 53 3 3 1 1 84 3 3 1 1 24 3 3 1 1 --model_name split_4 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_M/retrain_logs --train_dir work/DS_CNN_split/cfg_M/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 5 35 10 4 2 1 56 3 3 2 2 69 3 3 1 1 124 3 3 1 1 24 3 3 1 1 --model_name split_5 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_M/retrain_logs --train_dir work/DS_CNN_split/cfg_M/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 5 44 10 4 2 1 74 3 3 2 2 109 3 3 1 1 230 3 3 1 1 24 3 3 1 1 --model_name split_6 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_M/retrain_logs --train_dir work/DS_CNN_split/cfg_M/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 5 56 10 4 2 1 92 3 3 2 2 137 3 3 1 1 280 3 3 1 1 24 3 3 1 1 --model_name split_7 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_M/retrain_logs --train_dir work/DS_CNN_split/cfg_M/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 5 66 10 4 2 1 110 3 3 2 2 145 3 3 1 1 312 3 3 1 1 24 3 3 1 1 --model_name split_8 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_M/retrain_logs --train_dir work/DS_CNN_split/cfg_M/training  &
+    wait
+done
+
+
+
+
+# small
+for((seed=100;seed<=105;seed++))
+do
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 5 16 10 4 2 2 16 3 3 1 1 16 3 3 1 1 16 3 3 1 1 16 3 3 1 1 --model_name split_0 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_S/retrain_logs --train_dir work/DS_CNN_split/cfg_S/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 5 29 10 4 2 2 24 3 3 1 1 19 3 3 1 1 16 3 3 1 1 16 3 3 1 1 --model_name split_1 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_S/retrain_logs --train_dir work/DS_CNN_split/cfg_S/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 5 31 10 4 2 2 34 3 3 1 1 28 3 3 1 1 25 3 3 1 1 17 3 3 1 1 --model_name split_2 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_S/retrain_logs --train_dir work/DS_CNN_split/cfg_S/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 5 36 10 4 2 2 48 3 3 1 1 43 3 3 1 1 35 3 3 1 1 18 3 3 1 1 --model_name split_3 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_S/retrain_logs --train_dir work/DS_CNN_split/cfg_S/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 5 42 10 4 2 2 60 3 3 1 1 61 3 3 1 1 55 3 3 1 1 18 3 3 1 1 --model_name split_4 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_S/retrain_logs --train_dir work/DS_CNN_split/cfg_S/training  &
+    python train.py --model_architecture ds_cnn --seed ${seed} --model_size_info 5 48 10 4 2 2 66 3 3 1 1 69 3 3 1 1 72 3 3 1 1 18 3 3 1 1 --model_name split_5 --dct_coefficient_count 10 --window_size_ms 40 --window_stride_ms 20 --learning_rate 0.0005,0.0001,0.00002 --how_many_training_steps 10000,10000,10000 --summaries_dir work/DS_CNN_split/cfg_S/retrain_logs --train_dir work/DS_CNN_split/cfg_S/training  &
+    wait
+done
+
+
