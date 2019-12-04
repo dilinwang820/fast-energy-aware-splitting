@@ -53,20 +53,20 @@ We apply our method to split small version of MobileNetV1 and MobileNetV2.
 ## Citation
 If you find our approach useful in your research, please consider citing:
 
-@article{wang2019energy,
-  title={Energy-Aware Neural Architecture Optimization with Fast Splitting Steepest Descent},
-  author={Wang, Dilin and Li, Meng and Wu, Lemeng and Chandra, Vikas and Liu, Qiang},
-  journal={arXiv preprint arXiv:1910.03103},
-  year={2019}
-}
+    @article{wang2019energy,
+      title={Energy-Aware Neural Architecture Optimization with Fast Splitting Steepest Descent},
+      author={Wang, Dilin and Li, Meng and Wu, Lemeng and Chandra, Vikas and Liu, Qiang},
+      journal={arXiv preprint arXiv:1910.03103},
+      year={2019}
+    }
 
-@inproceedings{wu2019splitting,
-  title={Splitting steepest descent for growing neural architectures},
-  author={Wu, Lemeng and Wang, Dilin and Liu, Qiang},
-  booktitle={Advances in Neural Information Processing Systems},
-  pages={10655--10665},
-  year={2019}
-}
+    @inproceedings{wu2019splitting,
+      title={Splitting steepest descent for growing neural architectures},
+      author={Wu, Lemeng and Wang, Dilin and Liu, Qiang},
+      booktitle={Advances in Neural Information Processing Systems},
+      pages={10655--10665},
+      year={2019}
+    }
 
 
 
