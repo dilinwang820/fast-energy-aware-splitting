@@ -15,7 +15,7 @@ The local optima in the low dimensional space can be turned into a saddle point 
 
 **Splitting yields monotonic loss improvements**
 
-<img src="figures/splittingcurve_new.png" width=600></img>
+<img src="figures/splittingcurve_new.png" width=400></img>
 
 ## Our results
 
@@ -25,7 +25,7 @@ We apply our method to split small version of MobileNetV1 and MobileNetV2.
 
 
 | Model | MACs (G) | Top-1 Accuracy |
-| ------ | ------ |
+| ------ | ------ |------ |
 | Splitting-4 | 0.561 | 73.96|
 | Splitting-3 | 0.292 | 71.47|
 | Splitting-2 | 0.140  | 68.26|
@@ -36,7 +36,7 @@ We apply our method to split small version of MobileNetV1 and MobileNetV2.
 **Results on ImageNet using MobileNetV2**
 
 | Model | MACs (G) | Top-1 Accuracy |
-| ------ | ------ |
+| ------ | ------ |------ |
 | Splitting-3 | 0.298 | 72.84|
 | Splitting-2 | 0.208 | 71.76|
 | Splitting-1 | 0.095 | 66.53|
