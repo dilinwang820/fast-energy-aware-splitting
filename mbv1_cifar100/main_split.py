@@ -334,7 +334,7 @@ if args.energy or args.params:
     ### select top n_max neurons
     #sorted_idx = np.argsort(res.x)[::-1]
     #thre = res.x[sorted_idx[int(n_max)-1]]
-    thre = 0.9
+    thre = 0.99
 
     layer_idx, start_idx = 0, 0
     for k, m in enumerate(model.modules()):
